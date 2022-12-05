@@ -87,8 +87,6 @@ bool RayCaster::OnUserUpdate(float fElapsedTime)
         }
 
         DrawLine(playerPos, newP);
-        
-
 
         verticalLinePos += lineWidth;
     }
